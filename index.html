@@ -14,7 +14,7 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
 </head>
-<body>
+<body >
 
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -23,24 +23,21 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#!">All Products</a></li>
-                            <li><hr class="dropdown-divider" /></li>
-                            <li><a class="dropdown-item" href="#!">Popular Items</a></li>
-                            <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
-                        </ul>
-                    </li>
+                    
+                    <li class="nav-item"><a class="nav-link" href="#pizza">Pizzas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pizza">Empanadas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sandwhich">Sandwich</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sandwhich">Hamburguesas</a></li>
+                    
                 </ul>
                 <form class="d-flex">
+                  <a href="https://wa.me/+5493447526384">
                     <button class="btn btn-outline-dark" type="submit">
-                        <i class="bi-cart-fill me-1"></i>
-                        Cart
-                        <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                      <i class="bi bi-whatsapp"></i>
+                        Hace tu pedido
+                        <span class="badge bg-dark text-white ms-1 rounded-pill">+54 9 3447 52-6384</span>
                     </button>
+                  </a>
                 </form>
             </div>
         </div>
@@ -51,7 +48,8 @@
 
             <div class="text-center text-white">
                 <h1 class="display-4 fw-bolder">Los Amigos</h1>
-                <p class="lead fw-normal text-white-50 mb-0">Casa de comidas-Colón, Entre Ríos</p>
+                <p class="lead fw-normal text-white-50 mb-0">Boulevard Ferrary y Andrade, Colón - Entre Ríos</p>
+               
             </div>
         </div>
     </header>
@@ -100,7 +98,7 @@
   </div>
         <!-- pizza -->
         <section id="scroll">
-            <div class="container px-5">
+            <div class="container px-5" id="pizza">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6 order-lg-2">
                         <div class="p-5"><img class="img-fluid rounded-circle" src="./pics/pizza1.png" alt="pizza" /></div>
@@ -184,13 +182,24 @@
                 <img style="padding: 2%;" src="./pics/peperoni.png" width="100cv" alt="" >
                 </div>
                 </div>
+              <div class="row"style="background-color: #e9e9e9;">
+                <div class="col">
+                  Empanadas
+                </div>
+                <div class="col-5">
+                  Carne / jamon y mozzarella 
+                </div>
+                <div class="col">
+                <img style="padding: 2%;" src="./pics/empanada.png" width="100cv" alt="" >
+                </div>
+                </div>
 
 
         </div>
     </section>
     <!-- sandwich -->
     <section id="scroll">
-        <div class="container px-5">
+        <div class="container px-5" id="sandwhich">
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-6 order-lg-2">
                     <div class="p-5"><img class="img-fluid rounded-circle" src="./pics/chivito.webp" alt="pizza" /></div>
@@ -227,7 +236,7 @@
               chorizo, lechuga, tomate, papas fritas
             </div>
             <div class="col">
-              <img style="padding: 2%;" src="./pics/muzza3.png" width="100cv" alt="" >
+              <img style="padding: 2%;" src="./pics/chori.png" width="100cv" alt="" >
             </div>
           </div>
 
@@ -240,7 +249,7 @@
               panceta, papas fritas.(p/compartir) 
             </div>
             <div class="col">
-            <img style="padding: 2%;" src="./pics/muzza3.png" width="100cv" alt="" >
+            <img style="padding: 2%;" src="./pics/chivito.webp" width="100cv" alt="" >
             </div>
             </div>
 
@@ -252,7 +261,7 @@
               paty, huevo frito, lechuga, tomate, jamon, queso, papas fritas.
             </div>
             <div class="col">
-            <img style="padding: 2%;" src="./pics/muzza3.png" width="100cv" alt="" >
+            <img style="padding: 2%;" src="./pics/hamburguesa.png" width="100cv" alt="" >
             </div>
 
             </div>
@@ -264,7 +273,7 @@
               paty, huevo frito, cebolla, panceta, salsa chedar, papas fritas.
             </div>
             <div class="col">
-            <img style="padding: 2%;" src="./pics/muzza3.png" width="100cv" alt="" >
+            <img style="padding: 2%;" src="./pics/hampanceta.png" width="100cv" alt="" >
             </div>
             </div>
 
@@ -276,7 +285,7 @@
               Milanesa, lechuga tomate, jamon, queso, huevo frito,papas fritas.
             </div>
             <div class="col">
-            <img style="padding: 2%;" src="./pics/panceta.png" width="100cv" alt="" >
+            <img style="padding: 2%;" src="./pics/milanesa.png" width="100cv" alt="" >
             </div>
             </div>
 
